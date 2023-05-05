@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stopify</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Stopify</a>
+                    <button class="navbar-toggler navbar-links" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#hero">Hogar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#features">Caracteristicas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#cta">Ingresa a Stopify</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+            <div class="hero" id="hero">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-sm-12">
+                            <h1 class="title-hero">La mejor plataforma de musica</h1>
+                            <p>Escucha tus canciones favoritas, descubre nueva música y crea listas de reproducción con Stopify.</p>
+                            <button class="btn btn-success" onclick="window.location.href='./index.php'">Ingresa a Stopify</button>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <img src="./assets/img/music-hero.png" alt="Stopify" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+        </header>
+    </main>
+    <section id="features">
+        <div class="container">
+            <h2 style="color: #2a75c0;">Caracteristicas</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="fas fa-music"></i>
+                        <h3 style="color: #c02a93;">Libreria de Musica</h3>
+                        <p>Accede a millones de canciones de todo el mundo, con nueva música añadida cada día.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="fas fa-headphones"></i>
+                        <h3 style="color: #c02a93;">Listas de reproducción personalizadas.</h3>
+                        <p>Descubre nuevas canciones y artistas basados en tu historial de escucha y crea tus propias listas de reproducción.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3 style="color: #c02a93;">App movil</h3>
+                        <p>Escucha tu música favorita en cualquier lugar con la aplicación móvil Stopify para iOS y Android.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="songs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 style="color: #2a75c0;">Escucha tus canciones favoritas</h2>
+                    <p>Encuentra todas tus canciones favoritas en nuestra app y escúchalas en cualquier momento y lugar</p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="assets/img/her22.png " alt="Canciones " class="img-fluid ">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cta" style="background-color: #161718; ">
+        <div class="container ">
+            <div class="row align-items-center ">
+                <div class="col-md-6 ">
+                    <h2 style="font-size: 2.5rem; color: #2a75c0; ">Ingresa a Stopify</h2>
+                    <p style="font-size: 1.25rem; color: #ffffff; ">¡Regístrate en Stopify hoy mismo y comienza a escuchar tu música favorita!</p>
+                </div>
+                <div class="col-md-6 text-right ">
+                    <button class="btn btn-success" style="background-color: #b68601; border-color: #c78801;" onclick="window.location.href='./index.php'">Registrate Ahora!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <p>&copy; 2023 Stopify</p>
+                </div>
+                <div class="col-md-6 ">
+                    <ul class="list-inline ">
+                        <li class="list-inline-item "><a href="# ">Términos y condiciones</a></li>
+                        <li class="list-inline-item "><a href="# ">Política de privacidad</a></li>
+                        <li class="list-inline-item "><a href="# ">Soporte</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js "></script>
+</body>
+
+</html>
